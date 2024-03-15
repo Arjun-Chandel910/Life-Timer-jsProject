@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url("./images/mountain-landscape-2031539_1280.jpg");
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    /* background-position:center; */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.container{
+  display: grid;
+  place-items:center;
+  height:100hv;
+}
+.container h1{
+    font-size:4rem;
+    font-family: "Madimi One", sans-serif;
+   
+    
+
+}
+.container div::first-letter{
+  color: #ff004f;
+}
+
+.setting{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+
+}
+
+.icon{
+    color: #ff004f;
+    font-size: 3rem;
+
+}
+
+.setting-content{
+    display: flex;
+    gap:1rem;
+    margin:1rem;
+}
+
+.setting-content input{
+    padding :.5rem 1rem;
+    font-size: 1rem;
+}
+.setting-content button{
+    padding : .5rem;
+    background-color: red;
+    border:none;
+    border:2px solid black;
+    border-radius: 15px;
+    
+}
+
+.hide{
+    display:none;
+}
+
+.time-container{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.time-container h2{
+    font-size: 3rem;
+    text-align: center;
+}
