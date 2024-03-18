@@ -85,3 +85,8 @@
     font-size: 3rem;
     text-align: center;
 }
+
+.num{
+    position: relative;
+    bottom:20px;
+}
